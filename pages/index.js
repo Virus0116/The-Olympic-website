@@ -9,45 +9,45 @@ function HomePage() {
         alignItems: 'center'
       }}
     >
-      <h1 style={{ fontFamily: 'fantasy', color: 'blue' }}>
-        Tokyo_olympics's website
+      <h1 style={{ fontFamily: 'monospace', color: 'blue' }}>
+        The pokemon website
       </h1>
       <h2
         style={{
-          fontFamily: 'fantasy',
+          fontFamily: 'monospace',
           color: 'rgb(243, 103, 123)',
           marginBottom: '10rem'
         }}
       >
-        click the buttons below
+        There are some funny buttons below.....
       </h2>
       <button
         style={{
-          fontFamily: 'fantasy',
+          fontFamily: 'monospace',
           padding: '1rem',
           fontSize: '2rem',
-          background: 'blue',
-          color: 'white'
+          background: 'orange',
+          color: 'black'
         }}
-        onClick={() => alert('Welcome to the olympic website!')}
+        onClick={() => alert('Welcome to the pokemon website! ')}
       >
         Welcome
       </button>
       <button
         style={{
-          fontFamily: 'fantasy',
+          fontFamily: 'monospace',
           padding: '1rem',
           fontSize: '2rem',
-          background: 'orange',
-          color: 'white',
+          background: 'green',
+          color: 'black',
           marginTop: '2rem'
         }}
         onClick={() => {
           let name = prompt("What's your name?");
           if (name) {
-            alert('Nice to meet you, ' + name + '!');
+            alert('Welcome, ' + name + '!');
           } else {
-            alert('Nice to meet you, stranger');
+            alert('Please, type in your name');
           }
         }}
       >
