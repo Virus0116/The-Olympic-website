@@ -48,6 +48,21 @@ function HomePage() {
             alert('Welcome, ' + name + '!');
           } else {
             alert('Please, type in your name');
+            <button
+        style={{
+          fontFamily: 'monospace',
+          padding: '1rem',
+          fontSize: '2rem',
+          background: 'red',
+          color: 'black',
+          marginTop: '2rem'
+        }}
+        onClick={() => {
+          let name = prompt("What's your profile name?");
+          if (name) {
+            alert('www.twin-kle.com/users/+name);
+          } else {
+            alert('Please, type in your profile name');
           }
         }}
       >
