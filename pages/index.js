@@ -68,5 +68,6 @@ function HomePage() {
       >
         Welcome
       </button>
+    </div>
 
 export default HomePage;
