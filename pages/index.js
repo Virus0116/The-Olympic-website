@@ -48,21 +48,6 @@ function HomePage() {
             alert('Welcome, ' + name + '!');
           } else {
             alert('Please, type in your name');
-            <button
-        style={{
-          fontFamily: 'monospace',
-          padding: '1rem',
-          fontSize: '2rem',
-          background: 'red',
-          color: 'black',
-          marginTop: '2rem'
-        }}
-        onClick={() => {
-          let name = prompt("What's your profile name?");
-          if (name) {
-            alert('www.twin-kle.com/users/+name);
-          } else {
-            alert('Please, type in your profile name');
           }
         }}
       >
@@ -71,5 +56,17 @@ function HomePage() {
     </div>
   );
 }
+      <button
+        style={{
+          fontFamily: 'monospace',
+          padding: '1rem',
+          fontSize: '2rem',
+          background: 'blue',
+          color: 'white'
+        }}
+        onClick={() => alert('Subscribe me! https://www.youtube.com/channel/UCWr97tXZAnMNwTlelL-G8bg ')}
+      >
+        Welcome
+      </button>
 
 export default HomePage;
