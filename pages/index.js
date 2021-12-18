@@ -66,7 +66,7 @@ function HomePage() {
         }}
         onClick={() => alert('Subscribe me! https://www.youtube.com/channel/UCWr97tXZAnMNwTlelL-G8bg ')}
       >
-        Welcome
+        Click This Button
       </button>
     </div>
 
